@@ -1,0 +1,282 @@
+@charset "UTF-8";
+
+html {
+    display: flex;
+}
+
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    height: auto;
+    position: relative;
+    display: inline;
+    width: 100vw;
+}
+
+/*-----------INICIO CABEÇALHO-----------*/
+
+#logo {
+    width: 150px;
+    padding-left: 5%;
+    position: absolute;
+}
+
+header {
+    background-color: grey;
+    height: 150px;
+    display: flex;
+    max-width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+#menu {
+    text-align: center;
+    max-width: 100%;
+    padding-left: 0;
+    margin: auto;
+}
+
+ul {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 0;
+}
+
+li {
+    display: inline-block;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+li:hover {
+    background-color: rgba(0, 0, 0, 0.301);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+li:active {
+    background-color: rgba(0, 0, 0, 0.733);
+    color: rgba(245, 245, 245, 0.616);
+    text-shadow: 0 0 3px rgba(255, 255, 255, 0.685);
+}
+
+a{
+    color: black;
+}
+
+main {
+    margin: auto;
+    max-width: 850px;
+    height: 100%;
+    background-color: rgba(123, 124, 124, 0.623);
+    padding: 30px;
+}
+
+h2 {
+    background-image: linear-gradient(to left, rgba(128, 128, 128, 0.027), grey);
+
+    padding: 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.spanBar {
+    background-color: rgba(0, 0, 0, 0.671);
+    width: 250px;
+    margin-right: 20px;
+    margin-right: 0px;
+    display: flex;
+    height: 50px;
+
+}
+
+#container {
+    padding-top: 20%;
+}
+
+.imagens {
+    margin-top: 20px;
+    margin-left: 22px;
+    max-width: 200px;
+    display: flex;
+}
+
+.catalogo {
+    background-color: grey;
+    width: 250px;
+    height: 270px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    display: inline-block;
+}
+
+#female01 {
+    float: left;
+    margin-right: -50%;
+}
+
+#female02 {
+    float: right;
+    margin-left: 65%;
+}
+
+#female03 {
+    float: left;
+
+}
+
+#female04 {
+    float: right;
+}
+
+#container-homem {
+    float: right;
+}
+
+#male01 {
+    float: left;
+    margin-right: -50%;
+}
+
+#male02 {
+    float: right;
+    margin-left: 65%;
+}
+
+#male03 {
+    float: left;
+}
+
+#male04 {
+    float: right;
+}
+
+footer {
+    text-align: center;
+    background-color: grey;
+    height: 5vh;
+    padding: 15px;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1041px) {
+    header {
+        right: 0;
+        left: 0;
+        position: fixed;
+        height: 350px;
+    }
+
+    #logo {
+        width: 250px;
+        position: fixed;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+
+    ul {
+        margin-top: 30%;
+        padding: 0;
+        text-align: center;
+    }
+
+    #garotas {
+        margin: 0;
+    }
+
+    #container {
+        padding-top: 50%;
+    }
+
+    .imagens {
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    #container {
+        padding-top: 60%;
+    }
+}
+
+@media screen and (max-width: 595px) {
+
+    #menu {
+        margin-right: 5%;
+    }
+
+    ul {
+        margin-top: 60%;
+        font-size: 15px;
+    }
+
+    li {
+        margin-left: 20px;
+    }
+
+    #container {
+        padding-top: 90%;
+        text-align: center;
+    }
+
+
+    #female01 {
+        float: none;
+        margin: auto;
+    }
+
+    #female02 {
+        float: none;
+        margin: auto;
+    }
+
+    #female03 {
+        float: none;
+        margin: auto;
+    }
+
+    #female04 {
+        float: none;
+        margin: auto;
+    }
+
+    #container-homem {
+        float: none;
+        margin: auto;
+    }
+
+    #male01 {
+        float: none;
+        margin: auto;
+    }
+
+    #male02 {
+        float: none;
+        margin: auto;
+    }
+
+    #male03 {
+        float: none;
+        margin: auto;
+    }
+
+    #male04 {
+        float: none;
+        margin: auto;
+    }
+
+    footer {
+        padding: 15px;
+        padding-bottom: 30px;
+    }
+
+}
+
+/*-----------FINAL DO CABEÇALHO-----------*/
