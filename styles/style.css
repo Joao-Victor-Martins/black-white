@@ -32,9 +32,7 @@ header {
 }
 
 #menu {
-    text-align: center;
     max-width: 100%;
-    padding-left: 0;
     margin: auto;
 }
 
@@ -166,11 +164,11 @@ footer {
         right: 0;
         left: 0;
         position: fixed;
-        height: 350px;
+        height: 300px;
     }
 
     #logo {
-        width: 250px;
+        width: 230px;
         position: fixed;
         right: 0;
         left: 0;
@@ -192,7 +190,7 @@ footer {
     }
 
     #container {
-        padding-top: 50%;
+        padding-top: 40%;
     }
 
     .imagens {
@@ -207,9 +205,20 @@ footer {
 }
 
 @media screen and (max-width: 595px) {
+    header {
+        right: 0;
+        left: 0;
+        position: fixed;
+        height: 250px;
+    }
 
     #menu {
+        margin-top: -10%;
         margin-right: 5%;
+    }
+
+    #logo {
+        width: 200px;
     }
 
     ul {
